@@ -1,0 +1,174 @@
+body > div > div:nth-child(1) {
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+}
+body {
+    width: 100%;
+    position: relative;
+    margin: 0px;
+    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color:#000563;
+    color:#f5f5f5;
+    align-items: center;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.menu {
+    align-items: center;
+    width: 120px;
+}
+.navbar img {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.meer{
+    width: 120px;
+}
+.experience-indicator {
+    width: 30px;
+    background-color: #2497a5;
+    border-radius: 5px;
+}
+.experience-bar{
+    display: flex;
+    background-color: #87dbe5 ;
+    border-radius: 5px;
+    width: 202px;
+    height: 30px;
+    margin: 15px 30px;
+
+}
+.experience-bar > p {
+    margin: 15px 30px;
+    font-size: smaller;
+    align-self: center;
+}
+.Progress-credit-profile img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15px 30px;
+}
+.meerpf {
+    margin: 15px;
+}
+div.content {
+    display: flex;
+}
+
+body > header > div > div.experience-bar {
+    align-items: center;
+    background-color: rgb(135, 219, 229);
+    display: flex;
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+}
+.credits {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+body > header > div > div.logo > img { 
+    width: 94px;
+    height: 40px;
+}
+.growth {
+    display: flex;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 10px 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    left: 30px;
+    line-height: 19px;
+    color: #000000de;
+    margin-left: 40px;
+}
+.growth img {
+    align-items: center;
+    object-position: 50% 50%;
+}
+.main{
+    display: flex;
+    background-color:#000563;
+    color:#f5f5f5;
+    width: 100%;
+    align-items: center;
+}
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    width: 100%;
+    flex-direction: column;
+    margin-right: 200px;
+}
+th{
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: solid 1px rgb(141, 141, 141);
+  } 
+  td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+    border-bottom: solid 1px rgb(141, 141, 141);
+  }
+div {
+    display: flex;
+    justify-content: center;
+}
+input{
+    background-color: rgb(97, 204, 97);
+    border-radius: 5px;
+    color: white;
+    width: 60px;
+    height: 30px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.feedback {
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    color: rgb(97, 204, 97);
+}
+#meer_icon{
+    padding-bottom: 11px;
+}
+.feedback > span{
+    padding-top: 6px;
+}
+.profile{
+    margin: 0%;
+}
